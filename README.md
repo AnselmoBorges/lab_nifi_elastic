@@ -14,7 +14,7 @@ Nesse repositório estarão dispostos os arquivos necessários para configuraç�
 ## Docker compose
 É um arquivo yml que vem com as configurações necessárias para subirmos esses dados em Docker para iniciarmos os trabalhos. Maiores detalhes sobre o conteudo dele, basta ver o vídeo abaixo.
 
-https://youtu.be/sKnrKFVlDQQ
+[![](http://img.youtube.com/vi/sKnrKFVlDQQ/0.jpg)](http://www.youtube.com/watch?v=sKnrKFVlDQQ "Criação de ambiente do LAB")
 
 
 ## Como fazer a execução.
