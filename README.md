@@ -14,6 +14,9 @@ Nesse repositório estarão dispostos os arquivos necessários para configuraç�
 ## Docker compose
 É um arquivo yml que vem com as configurações necessárias para subirmos esses dados em Docker para iniciarmos os trabalhos. Maiores detalhes sobre o conteudo dele, basta ver o vídeo abaixo.
 
+https://youtu.be/sKnrKFVlDQQ
+
+
 ## Como fazer a execução.
 Com o docker e o docker-compose instalados (no meu caso num Linux) basta baixar esse conteudo via ```git clone``` e entrando na pasta baixada rodar o comando abaixo:
 
