@@ -38,10 +38,9 @@ git clone https://github.com/AnselmoBorges/lab_nifi_elastic.git
 ```
 
 ## Realize o start do deamon do Docker:
-Por padrão o Docker não vem iniciado, sendo assim rodamos os comandos abaixo para ativar e iniciar o Docker:
+Por padrão o Docker não vem iniciado, sendo assim rodamos os comandos abaixo para iniciar o Docker:
 ```
-sudo systemctl enable docker
-sudo systemctl start docker
+sudo service docker start
 ```
 
 ## Como fazer a execução.
