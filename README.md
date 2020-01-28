@@ -37,6 +37,13 @@ Para baixar o repositorio com o compose digite o comando abaixo:
 git clone https://github.com/AnselmoBorges/lab_nifi_elastic.git
 ```
 
+## Realize o start do deamon do Docker:
+Por padrão o Docker não vem iniciado, sendo assim rodamos os comandos abaixo para ativar e iniciar o Docker:
+```
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
 ## Como fazer a execução.
 Com o docker e o docker-compose instalados (no meu caso num Linux) basta baixar esse conteudo via ```git clone``` e entrando na pasta baixada rodar o comando abaixo:
 
