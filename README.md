@@ -6,6 +6,22 @@ Nesse repositório estarão dispostos os arquivos necessários para configuraç�
 * Docker compose instalado
 * Git instalado
 
+## Instalando Pré-reqs
+Para instalar todos os pré reqs citados acima rode os comandos abaixo:
+
+```
+sudo yum update -y
+sudo yum install docker git -y
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
+Com tudo instalado validamos o docker compose:
+
+```
+docker-compose -version
+```
+
 ## Ambiente do laboratório:
 * ElasticSearch (versão 7.3.1 atualmente) - Onde serão inseridos os dados
 * Kibana (versão 7.3.1 atualmente) - Onde serão dispostos os dashboards e faremos os ajustes do index.
