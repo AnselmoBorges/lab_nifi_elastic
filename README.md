@@ -32,6 +32,10 @@ docker-compose -version
 
 [![](http://img.youtube.com/vi/sKnrKFVlDQQ/0.jpg)](http://www.youtube.com/watch?v=sKnrKFVlDQQ "Criação de ambiente do LAB")
 
+Para baixar o repositorio com o compose digite o comando abaixo:
+```
+git clone https://github.com/AnselmoBorges/lab_nifi_elastic.git
+```
 
 ## Como fazer a execução.
 Com o docker e o docker-compose instalados (no meu caso num Linux) basta baixar esse conteudo via ```git clone``` e entrando na pasta baixada rodar o comando abaixo:
