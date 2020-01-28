@@ -23,9 +23,9 @@ docker-compose -version
 ```
 
 ## Ambiente do laboratório:
-* ElasticSearch (versão 7.3.1 atualmente) - Onde serão inseridos os dados
-* Kibana (versão 7.3.1 atualmente) - Onde serão dispostos os dashboards e faremos os ajustes do index.
-* Nifi (Versão 1.9.2 atualmente) - Ferramenta de ETL que fará o flow básico dos dados
+* ElasticSearch (versão 7.5.2 atualmente) - Onde serão inseridos os dados
+* Kibana (versão 7.5.2 atualmente) - Onde serão dispostos os dashboards e faremos os ajustes do index.
+* Nifi (Versão 1.11 atualmente) - Ferramenta de ETL que fará o flow básico dos dados
 
 ## Docker compose
 É um arquivo yml que vem com as configurações necessárias para subirmos esses dados em Docker para iniciarmos os trabalhos. Maiores detalhes sobre o conteudo dele, basta ver o vídeo abaixo.
